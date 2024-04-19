@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@akarui/aoi.invite": "^1.0.0",
+    "@akarui/aoi.music": "^2.4.0",
+    "@akarui/aoi.panel": "^0.0.9",
+    "aoi.js": "^6.7.1",
+    "js-yaml": "^4.1.0"
+  },
+  "name": "zychrome",
+  "description": "The **fast, lightweight, and secure** bot built for discord!",
+  "version": "1.0.0",
+  "main": "src/Zychrome.js",
+  "scripts": {
+    "test": "node src/Zychrome.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwertxy/Zychrome.git"
+  },
+  "keywords": [
+    "discordbot",
+    "aoijsbot",
+    "dcbot"
+  ],
+  "author": "xwertxy",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/xwertxy/Zychrome/issues"
+  },
+  "homepage": "https://github.com/xwertxy/Zychrome#readme"
+}

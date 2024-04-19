@@ -1,0 +1,38 @@
+---
+# Zychrome Discord Bot Configuration
+# GitHub: https://github.com/xwertxy
+# Author: xwertxy
+# Email: zychrome@xwertxy.tk
+
+# Discord token: Put here
+bot:
+   token: ""
+   # Security key for database: Do not change this!
+   securityKey: ""
+   # Sharding: Since discord is now required to create shards when bot intent
+   #                  guilds are increased more than 2000+ guilds.
+   sharding:
+       enable: false
+       count: 3
+
+# Bot Panel: Developer panel for Zychrome
+panel:
+   # Panel port which port will be connected.
+   port: 8080
+   # Authorization key for panel, please do not change this!
+   authKey: ""
+   # Login credentials. Can be multiple users!
+   login:
+      username:  "" # If you want to have multiple users just make this array! (ex. ["admin"])
+      password: ""  # If you want to have multiple users just make this array! (ex. ["pass123"])
+
+# Discord Bot Music: You can configure all voice music related here..
+music:
+   offsetTimeout: 0
+   soundcloudLikeTrackLimit: 200
+   spotifyPlaylistLimit: 100
+   youtubePlaylistLimit: 100
+   # Allow to debug inside of the console..
+   debug: false
+...
+
