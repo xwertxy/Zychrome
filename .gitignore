@@ -1,7 +1,6 @@
 # NodeJS Files
 node_modules/
 npm/
-config/
 package-lock.json
 
 # Replit Files
